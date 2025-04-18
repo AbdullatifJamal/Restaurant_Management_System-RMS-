@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "df59fc4a-0f21-4cee-9fe1-25048404e8e8",
+		"name": "RMS Api Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43341747",
+		"_collection_link": "https://crimson-robot-125395.postman.co/workspace/Team-Workspace~8f3e1f5f-5eb5-4fdb-8683-dcbc0a757105/collection/43341747-df59fc4a-0f21-4cee-9fe1-25048404e8e8?action=share&source=collection_link&creator=43341747"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44357/api/Auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44357",
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:44357/api/Auth/login' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Rest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44357/api/Auth/Rest",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44357",
+					"path": [
+						"api",
+						"Auth",
+						"Rest"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:44357/api/Auth/Rest' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"username\": \"string\",\r\n  \"password\": \"string\",\r\n  \"userRoleId\": 0,\r\n  \"email\": \"string\",\r\n  \"phoneNumber\": \"string\",\r\n  \"image\": \"string\",\r\n  \"createdBy\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44357/api/Auth/signup",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44357",
+					"path": [
+						"api",
+						"Auth",
+						"signup"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:44357/api/Auth/signup' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"username\": \"string\",\r\n  \"password\": \"string\",\r\n  \"userRoleId\": 0,\r\n  \"email\": \"string\",\r\n  \"phoneNumber\": \"string\",\r\n  \"image\": \"string\",\r\n  \"createdBy\": \"string\"\r\n}'"
+			},
+			"response": []
+		}
+	]
+}
