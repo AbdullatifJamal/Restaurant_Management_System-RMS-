@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "login.Controllers.AuthController",
+    "Method": "SignIn",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "RMS_API.DTOs.AuthDTO.Request.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

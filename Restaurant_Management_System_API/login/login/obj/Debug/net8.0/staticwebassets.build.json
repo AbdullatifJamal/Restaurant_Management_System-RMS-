@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pyWRvpsTZiPrfbNoPSpDHbJcvJjJWFxRynYpVYZrTe4=",
+  "Source": "login",
+  "BasePath": "_content/login",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
